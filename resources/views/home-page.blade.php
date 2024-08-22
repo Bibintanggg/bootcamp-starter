@@ -77,7 +77,9 @@
                         <div class="bg-gray-200 p-4 rounded-xl">
 
                             <!-- Icon for Audios -->
-                            <img src="{{ asset('/images/Audio.svg') }}" class="w-10 h-10">
+                            <a href="/audio">
+                                <img src="{{ asset('/images/Audio.svg') }}" class="w-10 h-10">
+                                </a>
                         </div>
                         <span class="mt-2 text-gray-700">Audios</span>
                     </div>

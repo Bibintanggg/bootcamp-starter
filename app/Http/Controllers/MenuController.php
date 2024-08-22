@@ -53,4 +53,9 @@ class MenuController extends Controller
     {
         return view('video');
     }
+
+    public function audio ()
+    {
+        return view('audio');
+    }
 }

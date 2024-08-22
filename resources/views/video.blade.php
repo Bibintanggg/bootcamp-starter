@@ -3,7 +3,7 @@
 @section('section')
 <div class="w-full max-w-md mx-auto mt-5">
 
-    <div class="flex items-center justify-between px-4 py-2 bg-red-500 text-white rounded-t-lg">
+    <div class="flex items-center justify-between px-4 py-2 bg-[#6A8CFF] text-white rounded-t-lg">
       <span>09.41</span>
       <div class="flex space-x-2">
 
