@@ -47,78 +47,84 @@
 
         <!-- My Folders -->
         <!-- Text My Folders -->
-        <div class="p-2 transform scale-80">
-            <h1 class="text-xl font-semibold text-gray-800 mb-6 ml-2">My Folders</h1>
-            <div class="grid grid-cols-4 gap-4">
-                <div class="flex flex-col items-center">
-                    <div class="bg-gray-200 p-4 rounded-xl">
+        <button>
+            <div class="p-3 ml-3 transform scale-80">
+                <h1 class="text-xl font-semibold text-gray-800 mb-6 mr-60">My Folders</h1>
+                <div class="grid grid-cols-4 gap-4">
+                    <div class="flex flex-col items-center">
+                        <div class="bg-gray-200 p-4 rounded-xl">
 
-                        <!-- Icon for Images -->
-                        <img src="{{ asset('/images/Image.svg') }}" class="w-10 h-10">
+                            <!-- Icon for Images -->
+                            <a href="/image">
+                                <img src="{{ asset('/images/Image.svg') }}" class="w-10 h-10">
+                            </a>
+                        </div>
+                        <span class="mt-2 text-gray-700">Images</span>
                     </div>
-                    <span class="mt-2 text-gray-700">Images</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="bg-gray-200 p-4 rounded-xl">
+                    <div class="flex flex-col items-center">
+                        <div class="bg-gray-200 p-4 rounded-xl">
 
-                        <!-- Icon for Videos -->
-                        <img src="{{ asset('/images/Video.svg') }}" class="w-10 h-10">
+                            <!-- Icon for Videos -->
+                            <img src="{{ asset('/images/Video.svg') }}" class="w-10 h-10">
+                        </div>
+                        <span class="mt-2 text-gray-700">Videos</span>
                     </div>
-                    <span class="mt-2 text-gray-700">Videos</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="bg-gray-200 p-4 rounded-xl">
+                    <div class="flex flex-col items-center">
+                        <div class="bg-gray-200 p-4 rounded-xl">
 
-                        <!-- Icon for Audios -->
-                        <img src="{{ asset('/images/Audio.svg') }}" class="w-10 h-10">
+                            <!-- Icon for Audios -->
+                            <img src="{{ asset('/images/Audio.svg') }}" class="w-10 h-10">
+                        </div>
+                        <span class="mt-2 text-gray-700">Audios</span>
                     </div>
-                    <span class="mt-2 text-gray-700">Audios</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="bg-gray-200 p-4 rounded-xl">
+                    <div class="flex flex-col items-center">
+                        <div class="bg-gray-200 p-4 rounded-xl">
+                            <!-- Icon for Document -->
+                            <a href="/docs">
+                                <img src="{{ asset('/images/Document.svg') }}" class="w-10 h-10">
+                            </a>
+                        </div>
+                        <span class="mt-2 text-gray-700">Document</span>
 
-                        <!-- Icon for Document -->
-                        <img src="{{ asset('/images/Document.svg') }}" class="w-10 h-10">
                     </div>
-                    <span class="mt-2 text-gray-700">Document</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="bg-gray-200 p-4 rounded-xl">
+                    <div class="flex flex-col items-center">
+                        <div class="bg-gray-200 p-4 rounded-xl">
 
-                        <!-- Icon for Download -->
-                        <img src="{{ asset('/images/Download.svg') }}" class="w-10 h-10">
+                            <!-- Icon for Download -->
+                            <img src="{{ asset('/images/Download.svg') }}" class="w-10 h-10">
+                        </div>
+                        <span class="mt-2 text-gray-700">Download</span>
                     </div>
-                    <span class="mt-2 text-gray-700">Download</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="bg-gray-200 p-4 rounded-xl">
+                    <div class="flex flex-col items-center">
+                        <div class="bg-gray-200 p-4 rounded-xl">
 
-                        <!-- Icon for Zip File -->
-                        <img src="{{ asset('/images/ZIP.svg') }}" class="w-10 h-10">
+                            <!-- Icon for Zip File -->
+                            <img src="{{ asset('/images/ZIP.svg') }}" class="w-10 h-10">
+                        </div>
+                        <span class="mt-2 text-gray-700">Zip File</span>
                     </div>
-                    <span class="mt-2 text-gray-700">Zip File</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="bg-gray-200 p-4 rounded-xl">
+                    <div class="flex flex-col items-center">
+                        <div class="bg-gray-200 p-4 rounded-xl">
 
-                        <!-- Icon for App -->
-                        <img src="{{ asset('/images/app.svg') }}" alt="App" class="w-10 h-10">
+                            <!-- Icon for App -->
+                            <img src="{{ asset('/images/app.svg') }}" alt="App" class="w-10 h-10">
+                        </div>
+                        <span class="mt-2 text-gray-700">App</span>
                     </div>
-                    <span class="mt-2 text-gray-700">App</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="bg-gray-200 p-4 rounded-xl">
-                        <!-- Icon for More -->
-                        <img src="{{ asset('/images/More.svg') }}" alt="App" class="w-10 h-10">
+                    <div class="flex flex-col items-center">
+                        <div class="bg-gray-200 p-4 rounded-xl">
+                            <!-- Icon for More -->
+                            <img src="{{ asset('/images/More.svg') }}" alt="App" class="w-10 h-10">
+                        </div>
+                        <span class="mt-2 text-gray-700">More</span>
                     </div>
-                    <span class="mt-2 text-gray-700">More</span>
                 </div>
             </div>
-        </div>
+        </button>
         <!-- Ending My Folders -->
 
         <!-- Recent Files -->
-        <div class=" p-6 rounded-lg w-80">
+        <div class=" p-6 rounded-lg w-80 transform scale-105">
             <h2 class="text-xl mb-4 font-semibold">Recent Files</h2>
             <div class="space-y-4">
                 <div class="flex items-center justify-between bg-white rounded-lg p-3 shadow-sm w-80">
