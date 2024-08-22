@@ -14,3 +14,6 @@ Route::get('/album', [MenuController::class, 'album']);
 Route::get('/account', [MenuController::class, 'account']);
 Route::get('/video', [MenuController::class, 'video']);
 Route::get('/audio', [MenuController::class, 'audio']);
+Route::get('/download', [MenuController::class, 'download']);
+Route::get('/zipfile', [MenuController::class, 'zipfile']);
+Route::get('/app', [MenuController::class, 'app']);

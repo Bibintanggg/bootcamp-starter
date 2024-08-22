@@ -97,7 +97,9 @@
                         <div class="bg-gray-200 p-4 rounded-xl">
 
                             <!-- Icon for Download -->
-                            <img src="{{ asset('/images/Download.svg') }}" class="w-10 h-10">
+                            <a href="/download">
+                                <img src="{{ asset('/images/Download.svg') }}" class="w-10 h-10">
+                            </a>
                         </div>
                         <span class="mt-2 text-gray-700">Download</span>
                     </div>
@@ -105,7 +107,9 @@
                         <div class="bg-gray-200 p-4 rounded-xl">
 
                             <!-- Icon for Zip File -->
-                            <img src="{{ asset('/images/ZIP.svg') }}" class="w-10 h-10">
+                            <a href="/zipfile">
+                                <img src="{{ asset('/images/ZIP.svg') }}" class="w-10 h-10">
+                            </a>
                         </div>
                         <span class="mt-2 text-gray-700">Zip File</span>
                     </div>
@@ -113,14 +117,16 @@
                         <div class="bg-gray-200 p-4 rounded-xl">
 
                             <!-- Icon for App -->
-                            <img src="{{ asset('/images/app.svg') }}" alt="App" class="w-10 h-10">
+                            <a href="/app">
+                                <img src="{{ asset('/images/app.svg') }}" alt="App" class="w-10 h-10">
+                            </a>
                         </div>
                         <span class="mt-2 text-gray-700">App</span>
                     </div>
                     <div class="flex flex-col items-center">
                         <div class="bg-gray-200 p-4 rounded-xl">
                             <!-- Icon for More -->
-                            <img src="{{ asset('/images/More.svg') }}" alt="App" class="w-10 h-10">
+                                <img src="{{ asset('/images/More.svg') }}" alt="App" class="w-10 h-10">
                         </div>
                         <span class="mt-2 text-gray-700">More</span>
                     </div>

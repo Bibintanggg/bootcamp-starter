@@ -58,4 +58,19 @@ class MenuController extends Controller
     {
         return view('audio');
     }
+
+    public function download ()
+    {
+        return view('download');
+    }
+
+    public function zipfile ()
+    {
+        return view('zipfile');
+    }
+
+    public function app ()
+    {
+        return view('app');
+    }
 }
