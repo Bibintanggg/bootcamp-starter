@@ -12,29 +12,29 @@ class MenuController extends Controller
         return view('home-page');
     }
 
-    public function about () 
+    public function about ()
     {
         return view('some-page');
-        
-    }
-    
-    public function contact () 
-    {
-        return view('menu.contact');
-        
+
     }
 
-    public function document () 
+    public function contact ()
+    {
+        return view('menu.contact');
+
+    }
+
+    public function document ()
     {
         return view('document');
     }
 
-    public function login () 
+    public function login ()
     {
         return view('login');
     }
 
-    public function image () 
+    public function image ()
     {
         return view('image');
     }
@@ -42,5 +42,15 @@ class MenuController extends Controller
     public function album ()
     {
         return view('album');
+    }
+
+    public function account ()
+    {
+        return view('account');
+    }
+
+    public function video ()
+    {
+        return view('video');
     }
 }

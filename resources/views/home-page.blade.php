@@ -9,7 +9,9 @@
             <h2 class="text-sm font-semibold text-gray-900">Welcome Back Bintang</h2>
             <p class="text-xl font-black text-gray-800">Your Storage Almost Full</p>
         </div>
-        <img src="{{asset('images/padlan.jpg')}}" alt="Profile" class="w-10 h-10 rounded-full">
+        <a href="/account">
+            <img src="{{asset('images/padlan.jpg')}}" alt="Profile" class="w-10 h-10 rounded-full">
+        </a>
     </div>
     <!-- Ending Header -->
 
@@ -65,7 +67,9 @@
                         <div class="bg-gray-200 p-4 rounded-xl">
 
                             <!-- Icon for Videos -->
-                            <img src="{{ asset('/images/Video.svg') }}" class="w-10 h-10">
+                            <a href="/video">
+                                <img src="{{ asset('/images/Video.svg') }}" class="w-10 h-10">
+                                </a>
                         </div>
                         <span class="mt-2 text-gray-700">Videos</span>
                     </div>
