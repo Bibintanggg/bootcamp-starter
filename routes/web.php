@@ -7,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/some-page', function () {
-    return view('some-page');
+    return view('home-page');
 })->name('some-page-route');
