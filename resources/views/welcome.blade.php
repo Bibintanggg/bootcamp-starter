@@ -54,7 +54,7 @@
                     <div class="bg-gray-200 p-4 rounded-xl">
 
                         <!-- Icon for Images -->
-                        <img src="{{ asset('/images/Image.svg') }}" alt="App" class="w-10 h-10">
+                        <img src="{{ asset('/images/Image.svg') }}" alt="Images" class="w-10 h-10">
                     </div>
                     <span class="mt-2 text-gray-700">Images</span>
                 </div>
@@ -62,7 +62,7 @@
                     <div class="bg-gray-200 p-4 rounded-xl">
 
                         <!-- Icon for Videos -->
-                        <img src="{{ asset('/images/Video.svg') }}" alt="App" class="w-10 h-10">
+                        <img src="{{ asset('/images/Video.svg') }}" alt="Videos" class="w-10 h-10">
                     </div>
                     <span class="mt-2 text-gray-700">Videos</span>
                 </div>
@@ -70,7 +70,7 @@
                     <div class="bg-gray-200 p-4 rounded-xl">
 
                         <!-- Icon for Audios -->
-                        <img src="{{ asset('/images/Audio.svg') }}" alt="App" class="w-10 h-10">
+                        <img src="{{ asset('/images/Audio.svg') }}" alt="Audios" class="w-10 h-10">
                     </div>
                     <span class="mt-2 text-gray-700">Audios</span>
                 </div>
@@ -78,7 +78,7 @@
                     <div class="bg-gray-200 p-4 rounded-xl">
 
                         <!-- Icon for Document -->
-                        <img src="{{ asset('/images/Document.svg') }}" alt="App" class="w-10 h-10">
+                        <img src="{{ asset('/images/Document.svg') }}" alt="Document" class="w-10 h-10">
                     </div>
                     <span class="mt-2 text-gray-700">Document</span>
                 </div>
@@ -86,7 +86,7 @@
                     <div class="bg-gray-200 p-4 rounded-xl">
 
                         <!-- Icon for Download -->
-                        <img src="{{ asset('/images/Download.svg') }}" alt="App" class="w-10 h-10">
+                        <img src="{{ asset('/images/Download.svg') }}" alt="Download" class="w-10 h-10">
                     </div>
                     <span class="mt-2 text-gray-700">Download</span>
                 </div>
@@ -94,7 +94,7 @@
                     <div class="bg-gray-200 p-4 rounded-xl">
 
                         <!-- Icon for Zip File -->
-                        <img src="{{ asset('/images/ZIP.svg') }}" alt="App" class="w-10 h-10">
+                        <img src="{{ asset('/images/ZIP.svg') }}" alt="Zip" class="w-10 h-10">
                     </div>
                     <span class="mt-2 text-gray-700">Zip File</span>
                 </div>
@@ -110,7 +110,7 @@
                     <div class="bg-gray-200 p-4 rounded-xl">
 
                         <!-- Icon for More -->
-                        <img src="{{ asset('/images/More.svg') }}" alt="App" class="w-10 h-10">
+                        <img src="{{ asset('/images/More.svg') }}" alt="More" class="w-10 h-10">
                     </div>
                     <span class="mt-2 text-gray-700">More</span>
                 </div>
@@ -119,7 +119,5 @@
         <!-- Ending My Folders -->
 
         <!-- Recent Files -->
-
-
 
         @endsection
