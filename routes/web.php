@@ -17,3 +17,5 @@ Route::get('/audio', [MenuController::class, 'audio']);
 Route::get('/download', [MenuController::class, 'download']);
 Route::get('/zipfile', [MenuController::class, 'zipfile']);
 Route::get('/app', [MenuController::class, 'app']);
+Route::get('/makalah', [MenuController::class, 'makalah']);
+

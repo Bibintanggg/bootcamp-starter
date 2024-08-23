@@ -2,8 +2,8 @@
 
 @section('section')
 
-<body class="bg-gray-100 p-4">
-    <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-6">
+<body class=" p-4">
+    <div class="max-w-2xl mx-auto  p-6">
 
         <nav class="text-sm text-gray-500 mb-4">
             <a href="/" class="hover:underline">My Folder</a>
