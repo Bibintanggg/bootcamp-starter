@@ -67,7 +67,7 @@
                 <div class="w-16 h-16 rounded flex items-center justify-center">
                     <img src="{{ asset('/images/Document.svg') }}" class="w-20 h-20">
                 </div>
-                <p class="mt-2 text-sm text-gray-600">File name 1</p>
+                <p class="mt-2 text-sm text-gray-600">Back Up 1</p>
             </div>
 
 
@@ -76,7 +76,7 @@
                 <div class="w-16 h-16 rounded flex items-center justify-center">
                     <img src="{{ asset('/images/Document.svg') }}" class="w-20 h-20">
                 </div>
-                <p class="mt-2 text-sm text-gray-600">File name 2</p>
+                <p class="mt-2 text-sm text-gray-600">Back Up 2</p>
             </div>
             <!-- end -->
         </div>

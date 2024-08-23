@@ -58,7 +58,7 @@
 
                             <!-- Icon for Images -->
                             <a href="/image">
-                                <img src="{{ asset('/images/Image.svg') }}" class="w-10 h-10">
+                                <img src="{{ asset('images/Image.svg') }}" class="w-10 h-10">
                             </a>
                         </div>
                         <p class="mt-2 text-gray-700">Images</p>
@@ -69,7 +69,7 @@
                             <!-- Icon for Videos -->
                             <a href="/video">
                                 <img src="{{ asset('/images/Video.svg') }}" class="w-10 h-10">
-                                </a>
+                            </a>
                         </div>
                         <span class="mt-2 text-gray-700">Videos</span>
                     </div>
@@ -79,7 +79,7 @@
                             <!-- Icon for Audios -->
                             <a href="/audio">
                                 <img src="{{ asset('/images/Audio.svg') }}" class="w-10 h-10">
-                                </a>
+                            </a>
                         </div>
                         <span class="mt-2 text-gray-700">Audios</span>
                     </div>
@@ -126,9 +126,9 @@
                     <div class="flex flex-col items-center">
                         <div class="bg-gray-200 p-4 rounded-xl">
                             <!-- Icon for More -->
-                                <a href="/more">
-                                    <img src="{{ asset('/images/More.svg') }}" alt="App" class="w-10 h-10">
-                                </a>
+                            <a href="/more">
+                                <img src="{{ asset('/images/More.svg') }}" alt="App" class="w-10 h-10">
+                            </a>
                         </div>
                         <span class="mt-2 text-gray-700">More</span>
                     </div>
@@ -144,7 +144,7 @@
                 <div class="flex items-center justify-between bg-white rounded-lg p-3 shadow-sm w-80">
                     <div class="flex items-center space-x-3">
                         <div class="bg-blue-100 p-2 rounded-md">
-                            <img src="{{ asset('/images/doc.svg') }}" class="w-5 h-5">
+                            <img src="{{ asset('/images/Doc.svg') }}" class="w-5 h-5">
                         </div>
                         <div>
                             <p class="font-medium">DOC-13971932940</p>

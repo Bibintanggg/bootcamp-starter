@@ -32,8 +32,9 @@
         <!-- Responsive Navigation Menu -->
         <div :class="{ 'block': open, 'hidden': !open }" class="hidden">
             <div class="pt-2 pb-3 space-y-1">
-                <x-responsive-nav-link href="/about">
-                    {{ __('Images') }}
+                <x-responsive-nav-link
+                    href="https://www.figma.com/proto/0NjmAR9SBVOwgu6cpKfuWw/INDITECH-(DocuVault)?node-id=51-29&t=V1YNBLVSUrFTbaGC-1&starting-point-node-id=51%3A29">
+                    {{ __('Link Figma') }}
                 </x-responsive-nav-link>
             </div>
         </div>

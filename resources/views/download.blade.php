@@ -38,7 +38,7 @@
         <div class="flex items-center">
             <img src="{{ asset('/images/zipOren.svg') }}" class="w-10 h-10 rounded-full">
             <div class="ml-3">
-                <p class="text-gray-800 font-medium">MobileLegend Mod.zip</p>
+                <p class="text-gray-800 font-medium">Flutter.zip</p>
                 <p class="text-sm text-gray-500">10/06/2023 01:56 PM</p>
             </div>
         </div>
@@ -57,7 +57,7 @@
         <div class="flex items-center">
             <img src="{{ asset('/images/zipOren.svg') }}" class="w-10 h-10 rounded-full">
             <div class="ml-3">
-                <p class="text-gray-800 font-medium">MobileLegend Mod.zip</p>
+                <p class="text-gray-800 font-medium">Fifa20224.zip</p>
                 <p class="text-sm text-gray-500">10/06/2023 01:56 PM</p>
             </div>
         </div>
@@ -75,7 +75,7 @@
         <div class="flex items-center">
             <img src="{{ asset('/images/zipOren.svg') }}" class="w-10 h-10 rounded-full">
             <div class="ml-3">
-                <p class="text-gray-800 font-medium">MobileLegend Mod.zip</p>
+                <p class="text-gray-800 font-medium">FreeFire Unlimited Gold.zip</p>
                 <p class="text-sm text-gray-500">10/06/2023 01:56 PM</p>
             </div>
         </div>
@@ -93,7 +93,7 @@
         <div class="flex items-center">
             <img src="{{ asset('/images/zipOren.svg') }}" class="w-10 h-10 rounded-full">
             <div class="ml-3">
-                <p class="text-gray-800 font-medium">MobileLegend Mod.zip</p>
+                <p class="text-gray-800 font-medium">League Of Legend.zip</p>
                 <p class="text-sm text-gray-500">10/06/2023 01:56 PM</p>
             </div>
         </div>
@@ -111,7 +111,7 @@
         <div class="flex items-center">
             <img src="{{ asset('/images/zipOren.svg') }}" class="w-10 h-10 rounded-full">
             <div class="ml-3">
-                <p class="text-gray-800 font-medium">MobileLegend Mod.zip</p>
+                <p class="text-gray-800 font-medium">JQuery.zip</p>
                 <p class="text-sm text-gray-500">10/06/2023 01:56 PM</p>
             </div>
         </div>
