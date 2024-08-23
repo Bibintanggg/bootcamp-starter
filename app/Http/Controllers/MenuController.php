@@ -74,8 +74,13 @@ class MenuController extends Controller
         return view('app');
     }
 
-    public function makalah () 
+    public function makalah ()
     {
         return view('makalah');
+    }
+
+    public function more ()
+    {
+        return view('more');
     }
 }

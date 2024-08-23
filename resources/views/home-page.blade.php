@@ -126,7 +126,9 @@
                     <div class="flex flex-col items-center">
                         <div class="bg-gray-200 p-4 rounded-xl">
                             <!-- Icon for More -->
-                                <img src="{{ asset('/images/More.svg') }}" alt="App" class="w-10 h-10">
+                                <a href="/more">
+                                    <img src="{{ asset('/images/More.svg') }}" alt="App" class="w-10 h-10">
+                                </a>
                         </div>
                         <span class="mt-2 text-gray-700">More</span>
                     </div>
