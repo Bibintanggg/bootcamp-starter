@@ -17,7 +17,7 @@
 
     <!-- Search Features -->
     <div class="relative mb-6">
-        <input type="text" placeholder="Search File" class="w-full px-4 py-2 border rounded-lg focus:outline-none">
+        <input type="text" placeholder="Search File" class="w-full px-4 py-2 border rounded-lg">
         <button class="absolute right-2 top-2 text-gray-600">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="size-6">
@@ -61,7 +61,7 @@
                                 <img src="{{ asset('/images/Image.svg') }}" class="w-10 h-10">
                             </a>
                         </div>
-                        <span class="mt-2 text-gray-700">Images</span>
+                        <p class="mt-2 text-gray-700">Images</p>
                     </div>
                     <div class="flex flex-col items-center">
                         <div class="bg-gray-200 p-4 rounded-xl">
