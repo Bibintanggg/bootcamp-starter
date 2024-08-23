@@ -3,14 +3,13 @@
 @section('section')
 <h1 class="text-4xl font-bold text-center text-black/80">some page here</h1>
 <div class="relative w-full max-w-xs bg-blue-500 p-6 rounded-lg shadow-lg">
-    <!-- Time and Icons -->
+
     <div class="absolute top-3 left-4 text-white font-semibold">09:41</div>
     <div class="absolute top-3 right-4 flex items-center space-x-2 text-white">
         <div class="w-4 h-4 rounded-full bg-white"></div>
         <div class="w-4 h-4 border-2 border-white rounded-full"></div>
     </div>
 
-    <!-- Login Form -->
     <h2 class="text-center text-white text-lg font-semibold mb-4">Login</h2>
     <form class="space-y-4">
         <div>

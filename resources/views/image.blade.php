@@ -21,7 +21,8 @@
 
 
         <div class="grid grid-cols-2 gap-4">
-            <!-- Repeat this block for each image -->
+
+        <!-- Ini bagian image -->
             <div class="relative">
                 <img src="{{ asset('/images/padlan.jpg') }}" alt="Image" class="w-full h-32 object-cover rounded-lg">
                 <span class="absolute bottom-2 right-2 bg-white p-1 rounded-full border border-gray-300">
@@ -31,7 +32,7 @@
                     </svg>
                 </span>
             </div>
-            <!-- Repeat end -->
+            <!-- end -->
         </div>
     </div>
 </body>

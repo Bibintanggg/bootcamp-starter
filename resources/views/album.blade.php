@@ -1,38 +1,28 @@
 @extends('layouts.main')
 
 @section('section')
-<div class=" p-4 rounded-lg w-96">
-    <!-- headder -->
-    <a href="/">
+<body class="bg-gray-100 p-4">
+    <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-6">
 
-        <div class="flex items-center mb-4">
+        <nav class="text-sm text-gray-500 mb-4">
+            <a href="/" class="hover:underline">My Folder</a>
+            <span class="mx-2">></span>
+            <a href="#" class="text-blue-500 hover:underline">Image</a>
+        </nav>
 
-    </a>
-    </button>
-    <div class="ml-2 text-sm text-gray-500 flex items-center">
-        <a href="/">
-            <span>My Folder</span>
-        </a>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-            class="w-4 h-4 mx-1">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-        </svg>
-        <span class="text-blue-500">Image</span>
-    </div>
-</div>
+
+        <div class="flex justify-between items-center border-b border-gray-300 mb-4">
+            <div class="flex space-x-8">
+                <a href="#" class="text-black font-semibold pb-2">Gambar</a>
+                <a href="/album" class="text-gray-500 hover:text-black   border-black pb-2">Album</a>
+            </div>
+
 <!-- end -->
 
 <!-- Image and Album Section -->
-<div class="flex items-center justify-between text-sm font-medium mb-2">
-    <a href="/image">
-
-        <div class="flex-1 text-center text-black border-b-2 border-transparent">
-            Gambar
-    </a>
-</div>
 <a href="/album">
-    <div class="flex-1 text-center text-black border-b-2 border-blue-500">
-        Album
+    <div class="flex-1 text-center text-black border-b-">
+
 </a>
 </div>
 </div>
