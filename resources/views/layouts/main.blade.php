@@ -24,9 +24,9 @@
                 @yield('section')
             </main>
 
-            <footer class="py-6 mt-auto bg-white text-center text-sm text-black">
+            <!-- <footer class="py-6 mt-auto bg-white text-center text-sm text-black">
                 <p>your footer here</p>
-            </footer>
+            </footer> -->
         </div>
     </div>
 </body>
