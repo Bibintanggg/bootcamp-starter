@@ -33,7 +33,7 @@
         <div :class="{ 'block': open, 'hidden': !open }" class="hidden">
             <div class="pt-2 pb-3 space-y-1">
                 <x-responsive-nav-link href="/about">
-                    {{ __('go to some page') }}
+                    {{ __('Images') }}
                 </x-responsive-nav-link>
             </div>
         </div>

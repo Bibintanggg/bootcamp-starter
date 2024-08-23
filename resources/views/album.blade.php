@@ -11,6 +11,8 @@
             <a href="#" class="text-blue-500 hover:underline">Image</a>
         </nav>
 
+
+
         <div class="flex space-x-8">
             <a href="/image" class=" text-gray-500 pb-2">Gambar</a>
             <a href="" class=" hover:text-black border-b-2 text-black font-semibold border-black pb-2">Album</a>
@@ -29,7 +31,8 @@
                     <div class="flex items-center">
                         <img src="{{ asset('/images/padlan.jpg') }}" class="w-12 h-12 rounded-md mr-3">
                         <div>
-                            <p class="text-black font-semibold">WhatsApp <span class="text-gray-500 font-normal">(1203910)</span>
+                            <p class="text-black font-semibold">WhatsApp <span
+                                    class="text-gray-500 font-normal">(1203910)</span>
                             </p>
                         </div>
                     </div>
@@ -38,7 +41,8 @@
                     <div class="flex items-center">
                         <img src="{{ asset('/images/padlan.jpg') }}" class="w-12 h-12 rounded-md mr-3">
                         <div>
-                            <p class="text-black font-semibold">Pictures <span class="text-gray-500 font-normal">(1102)</span></p>
+                            <p class="text-black font-semibold">Pictures <span
+                                    class="text-gray-500 font-normal">(1102)</span></p>
                         </div>
                     </div>
 
@@ -46,7 +50,8 @@
                     <div class="flex items-center">
                         <img src="{{ asset('/images/padlan.jpg') }}" class="w-12 h-12 rounded-md mr-3">
                         <div>
-                            <p class="text-black font-semibold">Favorite <span class="text-gray-500 font-normal">(11029)</span></p>
+                            <p class="text-black font-semibold">Favorite <span
+                                    class="text-gray-500 font-normal">(11029)</span></p>
                         </div>
                     </div>
 
@@ -54,7 +59,8 @@
                     <div class="flex items-center">
                         <img src="{{ asset('/images/padlan.jpg') }}" class="w-12 h-12 rounded-md mr-3">
                         <div>
-                            <p class="text-black font-semibold">Instagram <span class="text-gray-500 font-normal">(2038)</span></p>
+                            <p class="text-black font-semibold">Instagram <span
+                                    class="text-gray-500 font-normal">(2038)</span></p>
                         </div>
                     </div>
                 </div>
